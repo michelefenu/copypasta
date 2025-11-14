@@ -1,0 +1,23 @@
+{
+  "name": "copypasta",
+  "version": "1.0.0",
+  "description": "A simple client-side text compression and sharing tool",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "serve": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "compression",
+    "text-sharing",
+    "brotli",
+    "gzip",
+    "url-encoding"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
